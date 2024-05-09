@@ -24,6 +24,13 @@ public class MathUtil {
 
         System.out.println("expected: 0! = 1; actual : " + MathUtil1.getFactorial(0));
 
+        // THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CODE LÊN SERVER 5:26 PM 09/05/2024
+        
+        System.out.println("expected: 1! = 1; actual : " + MathUtil1.getFactorial(1));
+        System.out.println("expected: 3! = 6; actual : " + MathUtil1.getFactorial(3));
+        
+        
+
         // MathUtil1.getFactorial(-5); ; nếm ngoại lệ thật rồi , ai biểu đòi cà chớn
 
        
