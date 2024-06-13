@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Service\\Service.csproj": {}
+    "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\obj\\",
+        "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +35,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,21 +98,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\DTO.csproj": {
+    "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\obj\\",
+        "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,14 +120,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -140,11 +137,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,21 +158,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\Repository.csproj": {
+    "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\obj\\",
+        "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,14 +180,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\DTO\\DTO.csproj"
+              "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\DTO\\DTO.csproj"
               }
             }
           }
@@ -204,11 +197,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -230,21 +218,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Service\\Service.csproj": {
+    "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Service\\obj\\",
+        "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,14 +240,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\Ki-5\\SWP2\\FUFleamarket\\TestFUFM\\Repository\\Repository.csproj"
+              "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Workspace\\SP_SWP\\math-util\\TestFUFM\\Repository\\Repository.csproj"
               }
             }
           }
@@ -268,11 +257,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -294,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

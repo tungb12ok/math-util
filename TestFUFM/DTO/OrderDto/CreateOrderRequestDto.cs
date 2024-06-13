@@ -15,7 +15,7 @@ namespace BusinessObjects.OrderDto
         public decimal Price { get; set; }
         
         public string PaymentMethod { get; set; } = null!;
-        public int Status { get;  } = 0;
+        public int Status { get;  } = 5;
         public string? Note { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }

@@ -6,17 +6,21 @@ using Microsoft.IdentityModel.Tokens;
 using Repository.Interfaces;
 using Repository;
 using System.Text;
+using BusinessObjects.VNPay;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
+using WebAPI.Util;
+using Transaction = System.Transactions.Transaction;
 
 public class Program
 {
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        var configuration = builder.Configuration;
 
         // Cấu hình dịch vụ
         builder.Services.AddControllers();
@@ -108,8 +112,12 @@ public class Program
         builder.Services.AddScoped<IMessageRepository, MessageRepository>();
         builder.Services.AddScoped<IProductImageRepository, ProductImageRepository>();
         builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-
         builder.Services.AddScoped<IProductReposity, ProductReposity>();
+        builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+        builder.Services.AddSingleton<VNPayHelper>();
+
+        // VNPay setting 
+        builder.Services.Configure<VNPaySettings>(configuration.GetSection("VNPaySettings"));
 
         var app = builder.Build();
 

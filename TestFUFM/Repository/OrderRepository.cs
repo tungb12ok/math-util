@@ -40,11 +40,28 @@ namespace Repository
                 return null;
             }
             existingOrder.OrderDate = updateOrder.OrderDate;
-            existingOrder.PaymentMethod = updateOrder.PaymentMethod;
             existingOrder.Status = updateOrder.Status;
             existingOrder.Note = updateOrder.Note;
             existingOrder.Quantity = updateOrder.Quantity;
             existingOrder.ReceiverAddress = updateOrder.ReceiverAddress;
+
+            await _context.SaveChangesAsync();
+            return existingOrder;
+        }
+
+        public async Task<Order?> UpdateOrderAsync(Order o)
+        {
+            Order existingOrder = await _context.Orders.FirstOrDefaultAsync(u => u.OrderId == o.OrderId);
+            if (existingOrder == null)
+            {
+                return null;
+            }
+            existingOrder.OrderDate = o.OrderDate;
+            existingOrder.Status = o.Status;
+            existingOrder.Note = o.Note;
+            existingOrder.Quantity = o.Quantity;
+            existingOrder.ReceiverAddress = o.ReceiverAddress;
+            existingOrder.DeliveryDate = DateTime.Now;
 
             await _context.SaveChangesAsync();
             return existingOrder;

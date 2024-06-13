@@ -11,7 +11,7 @@ namespace BusinessObjects.OrderDto
     {
         public DateTime OrderDate { get; set; }
         public decimal Price { get; set; }       
-        public string PaymentMethod { get; set; } = null!;
+        public int PaymentMethod { get; set; }
         public int Status { get; } = 1;
         public string? Note { get; set; }
         public int Quantity { get; set; }
