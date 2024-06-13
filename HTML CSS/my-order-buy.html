@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buy Order</title>
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Header Section Begin -->
+    <header class="header container-fluid  d-flex flex-row justify-content-between align-items-center px-2 py-1">
+        <div class="logo p-2">
+            <a  href="index.html">
+                <img class="img-fluid" src="img/logo.png" alt="logo">
+            </a>         
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle text-white fs-5" id="autoDropdown"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-list" aria-hidden="true"></i>
+                <span>Danh mục</span>
+            </button>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item py-2" href="#">
+                        <i class="fa fa-desktop me-2" aria-hidden="true"></i> Đồ điện tử
+                    </a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">
+                        <i class="fa fa-book me-2" aria-hidden="true"></i> Đồ dùng học tập</a></li>
+                <li><a class="dropdown-item py-2" href="#">
+                        <img width="20px" src="img/icon/fridge.png" alt="frideIcon">
+                        Điện lạnh
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item py-2" href="#">
+                        <img width="20px" src="img/icon/sofa.png" alt="sofaIcon">
+                        Đồ gia dụng, nội thất &nbsp; &nbsp;
+                    </a>
+                </li>
+                <li><a class="dropdown-item py-2" href="#">
+                        <i class="fa fa-cutlery me-2" aria-hidden="true"></i>
+                        Đồ ăn, thực phẩm</a></li>
+                <li>
+                    <a class="dropdown-item py-2" href="#">
+                        <img width="20px" src="img/icon/woman-clothes.png" alt="sofaIcon">
+                        Thời trang
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item py-2" href="#">
+                        <img width="20px" src="img/icon/console.png" alt="sofaIcon">
+                        Giải trí, thể thao, sở thích
+                    </a>
+                </li>
+
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item" href="#"> Second Level <span
+                            class="float-end custom-toggle-arrow">&#187</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Second Level Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Second Level Item 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <form class="w-40 px-3" action="">
+            <div class="input-group text-white">
+                <input type="text" class="form-control" placeholder="Tìm kiếm">
+                <button class="btn btn-outline-secondary bg-white">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+        </form>
+        <div class="">
+            <button class="btn fs-5 text-white">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+            </button>
+            <button class="btn fs-5 text-white">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+            </button>
+            <button class="btn fs-5 text-white">
+                <a style="color: white; text-decoration: none;" href="my-post.html">
+                    <i class="fa fa-list-alt" aria-hidden="true"></i>
+                Quản lý tin
+                </a>
+            </button>
+            <button class="btn fs-5 text-white">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+            <span>
+                <div class="btn-group user-dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-transparent" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        <img class="userLogo mx-1" class="img-fluid" src="https://cdn.chotot.com/uac2/27021569" alt="">
+                        <span  class="fs-5 username">Đăng nhập</span>
+                    </button>
+                    <ul style="padding: 0;" class="dropdown-menu">
+                        <div class="ps-3 pe-4 py-2 bg-body-secondary fw-bold">
+                            Quản lý đơn hàng
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-clipboard" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="my-order-buy.html">Đơn mua</a>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="my-order-sell.html">Đơn bán</a>
+                        </div>
+                        <div class="ps-3 pe-4  py-2 bg-body-secondary fw-bold">
+                            Khác
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-cog" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="#"> Cài đặt tài khoản</a>
+                           
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="#"> Trợ giúp</a>
+                            
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="#"> Đóng góp ý kiến</a>
+                          
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center ps-3">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            <a class="dropdown-item" href="#"> Đăng xuất</a>
+                          
+                        </div>
+                    </ul>
+                  </div>
+            </span>
+        </div>
+        <button class="btn mx-2 text-white fs-5 upPostBtn">
+            <a href="upload-product.html">
+                Đăng tin &nbsp;
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+            </a>   
+        </button>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Buy Order Begin -->
+    <section class="buy_order spad">
+        <div class="container bg-white px-5 py-3">
+            <div class="product_container px-4 py-2">
+                <h3 class="mb-3 fw-bold">Đơn mua của tôi</h3>
+                <div class="row mb-5">
+                    <div class="col-12 border-bottom  pb-1">
+                       <span class="fs-5">  <i class="fa fa-home" aria-hidden="true"></i> Shop Yasuo </span> 
+                    </div>
+                    <div class="col-8 col-md-8 pt-3">
+                        <div class="row">
+                            <div class="col-lg-3 w-25 product_image">
+                                <img src="https://cdn.chotot.com/KaeCJ37UZYOEULAGMmXXysx58XK2HN0NuGRDe19ghmc/preset:listing/plain/04ce7661b608efb996c24464a494c5b7-2878763638223117842.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <a href="" class="name">Chuột logitech M221</a>
+                                <div class="price">100.000đ</div>
+                                <div class="address">Phường Dĩ An, Thành phố Dĩ An, Bình Dương</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4 pt-3 order_info">
+                        <div>Số lượng: <span> 2</span> </div>
+                        <div>Giá: <span> 49000 </span>đ</div>
+                        <div>Phương thức thanh toán: <span> Tiền mặt </span></div>
+                        <div>Ngày giao dịch: <span> 30/5/2024 </span></div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12 border-bottom  pb-1">
+                       <span class="fs-5">  <i class="fa fa-home" aria-hidden="true"></i> Shop Yasuo </span> 
+                    </div>
+                    <div class="col-8 col-md-8 pt-3">
+                        <div class="row">
+                            <div class="col-lg-3 w-25 product_image">
+                                <img src="https://cdn.chotot.com/KaeCJ37UZYOEULAGMmXXysx58XK2HN0NuGRDe19ghmc/preset:listing/plain/04ce7661b608efb996c24464a494c5b7-2878763638223117842.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <a href="" class="name">Chuột logitech M221</a>
+                                <div class="price">100.000đ</div>
+                                <div class="address">Phường Dĩ An, Thành phố Dĩ An, Bình Dương</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4 pt-3 order_info">
+                        <div>Số lượng: <span> 2</span> </div>
+                        <div>Giá: <span> 49000 </span>đ</div>
+                        <div>Phương thức thanh toán: <span> Tiền mặt </span></div>
+                        <div>Ngày giao dịch: <span> 30/5/2024 </span></div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12 border-bottom  pb-1">
+                       <span class="fs-5">  <i class="fa fa-home" aria-hidden="true"></i> Shop Yasuo </span> 
+                    </div>
+                    <div class="col-8 col-md-8 pt-3">
+                        <div class="row">
+                            <div class="col-lg-3 w-25 product_image">
+                                <img src="https://cdn.chotot.com/KaeCJ37UZYOEULAGMmXXysx58XK2HN0NuGRDe19ghmc/preset:listing/plain/04ce7661b608efb996c24464a494c5b7-2878763638223117842.jpg"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <a href="" class="name">Chuột logitech M221</a>
+                                <div class="price">100.000đ</div>
+                                <div class="address">Phường Dĩ An, Thành phố Dĩ An, Bình Dương</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4 pt-3 order_info">
+                        <div>Số lượng: <span> 2</span> </div>
+                        <div>Giá: <span> 49000 </span>đ</div>
+                        <div>Phương thức thanh toán: <span> Tiền mặt </span></div>
+                        <div>Ngày giao dịch: <span> 30/5/2024 </span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Buy Order End -->
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img class="img-fluid" src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Địa chỉ: Lô E2a-7, Đường D1, Khu Công nghệ cao, P.Long Thạnh Mỹ, Tp. Thủ Đức, TP.HCM.</li>
+                            <li>Phone: (028) 7300 5588</li>
+                            <li>Email: daihoc.hcm@fpt.edu.vn</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">About Our Shop</a></li>
+                            <li><a href="#">Secure Shopping</a></li>
+                            <li><a href="#">Delivery infomation</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Our Sitemap</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Innovation</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer__widget">
+                        <h6>Join Our Newsletter Now</h6>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> GPMXH: Chưa có giấy phép do Bộ Thông tin và Truyền thông cấp
+                            </p>
+
+                        </div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
